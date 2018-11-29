@@ -1,2 +1,3 @@
-# my-resume-wordpress
-Wordpress Theme for My Resume
+# Wordpress Theme for My Resume
+
+## See it in action! [Click Here](http://marvincyan.com/)
