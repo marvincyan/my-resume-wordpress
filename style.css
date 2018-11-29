@@ -35,9 +35,13 @@ header hr { border-color: rgba(255,255,255,0.5); }
 #nav .btn .title { position: absolute; bottom: 13px; text-transform: uppercase; }
 #nav .btn .plus { position: absolute; bottom: 0px; right: 5px; font-size: 30px; }
 .collapseContentRow { padding-left: 30px; margin-top: 30px; width: 100%; }
+#collapseContent1 #contentContainer { background-color: rgba(255,255,255,0.9); padding: 20px 40px; }
+#collapseContent1 #contentContainer > .title { font-size: 20px; font-weight: bold; }
 #contactTitle { font-size: 40px; font-weight: 700; color: #fefefe; line-height: 40px; }
 #bringTitle { margin-top: 20px; font-size: 20px; font-weight: 700; color: #fefefe;line-height: 20px; }
 #bringList { list-style-type: none; margin: 20px 0; padding: 0;font-size: 16px; font-weight: 400; line-height: 20px; color: #ccc; }
+#aboutMeList { list-style-type: none; margin: 0 0 0 20px; padding: 0; }
+#aboutMeList > li span { font-weight: 600; }
 .contactBtn { margin-top: 10px; }
 form.wpcf7-form { margin-bottom: 20px; }
 
