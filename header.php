@@ -48,6 +48,6 @@ $array_menu = wp_get_nav_menu_items('Main Menu');
 
     <button type="button" class="btn btn-outline-light" id="hireMe" data-toggle="modal" data-target="#hireMeModal">HIRE ME</button>
     <hr />
-    <div id="download"><a href="<?=get_template_directory_uri() . '/files/MarvinYanResume.pdf'?>" title="Marvin Yan Resume" download>Download CV</a></div>
+    <div id="download"><a href="<?=get_template_directory_uri() . '/files/MarvinYanResumeNoRef.pdf'?>" title="Marvin Yan Resume" download>Download CV</a></div>
   </div>
 </header>
