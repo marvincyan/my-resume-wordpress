@@ -40,9 +40,10 @@ get_header(); ?>
       foreach ($array_menu as $menu_item) { 
         $post = get_post($menu_item->object_id);
         $content = apply_filters('the_content', $post->post_content);
+        $show = $menu_item->menu_order == 1 ? 'show' : '';
     ?>
       <div class="collapseContentRow">
-        <div class="collapse" id="collapseContent<?=$menu_item->menu_order?>" data-parent="#collapseContent"> 
+        <div class="collapse <?=$show?>" id="collapseContent<?=$menu_item->menu_order?>" data-parent="#collapseContent"> 
           <?=$content?>
         </div>
       </div>
