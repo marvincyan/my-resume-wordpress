@@ -62,7 +62,7 @@ ul.timeline {
 
 .time-wrapper {
    position: absolute;
-   top: 17px;
+   top: 30px;
    width: 100%;
 }
 .dr .time-wrapper {
@@ -93,7 +93,7 @@ ul.timeline {
   margin-right: 28px;
 }
 .flag-wrapper p {
-  margin-top: -9px;
+  margin-top: 15px;
 }
 
 .flag {
